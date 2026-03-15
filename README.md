@@ -1,7 +1,7 @@
 # ✨ Zech Shop | Advanced WhatsApp Baileys-mod API
 
 <p align="center">
-  <img src="https://files.catbox.moe/s16sfp.jpg" alt="Zech Thumbnail" width="100%"/>
+  <img src="https://files.catbox.moe/s16sfp.jpg" alt="Zech Thumbnail" width="70%"/>
 </p>
 
 
