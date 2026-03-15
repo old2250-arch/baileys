@@ -89,7 +89,7 @@ await sock.sendMessage(jid, {
             degreesLongitude: 0, 
             name: "rowrrrr" 
         }, 
-        joinLink: "https://call.whatsapp.com/video/zebuild", 
+        joinLink: "https://call.whatsapp.com/video/zecho", 
         startTime: "1763019000", 
         endTime: "1763026200", 
         extraGuestsAllowed: false 
@@ -126,7 +126,7 @@ await sock.sendMessage(jid, {
     interactiveMessage: {
         header: "Hello World",
         title: "Hello World",
-        footer: "telegram: @zebuild ",
+        footer: "telegram: @zechoxyz ",
         buttons: [
             {
                 name: "cta_copy",
@@ -149,13 +149,13 @@ await sock.sendMessage(jid, {
     interactiveMessage: {      
         header: "Hello World",
         title: "Hello World",      
-        footer: "telegram: @zebuild",      
+        footer: "telegram: @zechoxyz",      
         image: { url: "https://example.com/image.jpg" },      
         nativeFlowMessage: {        
             messageParamsJson: JSON.stringify({          
                 limited_time_offer: {            
                     text: "idk hummmm?",            
-                    url: "https://t.me/zebuild",            
+                    url: "https://t.me/zechoxyz",            
                     copy_code: "yume",            
                     expiration_time: Date.now() * 999          
                 },          
@@ -168,7 +168,7 @@ await sock.sendMessage(jid, {
                 tap_target_configuration: {            
                     title: " X ",            
                     description: "bomboclard",            
-                    canonical_url: "https://t.me/zebuild",            
+                    canonical_url: "https://t.me/zechoxyz",            
                     domain: "shop.example.com",            
                     button_index: 0          
                 }        
@@ -196,7 +196,7 @@ await sock.sendMessage(jid, {
                                 highlight_label: "label",                  
                                 rows: [                    
                                     {                      
-                                        title: "@zebuild",                      
+                                        title: "@zechoxyz",                      
                                         description: "love you",                      
                                         id: "row_2"                    
                                     }                  
@@ -228,7 +228,7 @@ await sock.sendMessage(jid, {
     interactiveMessage: {
         header: "Hello World",
         title: "Hello World",
-        footer: "telegram: @zebuild",
+        footer: "telegram: @zechoxyz",
         image: { url: "https://example.com/image.jpg" },
         buttons: [
             {
@@ -281,10 +281,10 @@ await sock.sendMessage(jid, {
     interactiveMessage: {
         header: "Hello World",
         title: "Hello World",
-        footer: "telegram: @zebuild",
+        footer: "telegram: @zechoxyz",
         document: fs.readFileSync("./package.json"),
         mimetype: "application/pdf",
-        fileName: "zebuild.pdf",
+        fileName: "zechoxyz.pdf",
         jpegThumbnail: fs.readFileSync("./document.jpeg"),
         contextInfo: {
             mentionedJid: [jid],
@@ -297,7 +297,7 @@ await sock.sendMessage(jid, {
             mediaType: 3,
             thumbnailUrl: "https://example.com/image.jpg",
             mediaUrl: " X ",
-            sourceUrl: "https://t.me/zebuild",
+            sourceUrl: "https://t.me/zechoxyz",
             showAdAttribution: true,
             renderLargerThumbnail: false         
         },
@@ -306,8 +306,8 @@ await sock.sendMessage(jid, {
                 name: "cta_url",
                 buttonParamsJson: JSON.stringify({
                     display_text: "Telegram",
-                    url: "https://t.me/zebuild",
-                    merchant_url: "https://t.me/zebuild"
+                    url: "https://t.me/zechoxyz",
+                    merchant_url: "https://t.me/zechoxyz"
                 })
             }
         ]
@@ -323,18 +323,18 @@ await sock.sendMessage(jid, {
     interactiveMessage: {
         header: "Hello World",
         title: "Hello World",
-        footer: "telegram: @zebuild",
+        footer: "telegram: @zechoxyz",
         document: fs.readFileSync("./package.json"),
         mimetype: "application/pdf",
-        fileName: "zebuild.pdf",
+        fileName: "zechoxyz.pdf",
         jpegThumbnail: fs.readFileSync("./document.jpeg"),
         buttons: [
             {
                 name: "cta_url",
                 buttonParamsJson: JSON.stringify({
                     display_text: "Telegram",
-                    url: "https://t.me/zebuild",
-                    merchant_url: "https://t.me/zebuild"
+                    url: "https://t.me/zechoxyz",
+                    merchant_url: "https://t.me/zechoxyz"
                 })
             }
         ]
